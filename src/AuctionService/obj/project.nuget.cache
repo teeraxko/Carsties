@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "5XwdHZSJWjy8siKxJrAPPgp3isnLv5K05kQZXPULg9A7pSl0Htq8lZdDIcx5okVOh8zCknpnjbrRwoztkYhNJQ==",
+  "dgSpecHash": "uo3zZIZ1PD3nILDFy7F3XUDS31ABh1h+/pVa1Pb1JsYt0jsRV0CRD708grXsr4AWWXtCVLgoH/i6d1/h2ghs1g==",
   "success": true,
   "projectFilePath": "/workspaces/Carsties/src/AuctionService/AuctionService.csproj",
   "expectedPackageFiles": [
