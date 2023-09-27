@@ -36,6 +36,15 @@
                 "${workspaceFolder}/Carsties.sln"
             ],
             "problemMatcher": "$msCompile"
+        },
+        {
+            "type": "dotnet",
+            "task": "clean",
+            "problemMatcher": [
+                "$msCompile"
+            ],
+            "group": "clean",
+            "label": "dotnet: clean"
         }
     ]
 }
