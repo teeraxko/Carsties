@@ -1,7 +1,7 @@
 {"image":"mcr.microsoft.com/devcontainers/universal:2",
 "forwardPorts": [
     // ASP.NET Core Web/API App   
-    7001,7002
+    7001,7002,7003,7004,5432,27017
 ],
 "customizations": {
 	"vscode": {
@@ -23,7 +23,10 @@
 			"redhat.vscode-yaml",
 			"zxh404.vscode-proto3",
 			"vscode-icons-team.vscode-icons"
-		]
+		],
+		"settings": {
+			"remote.autoForwardPorts": true
+		  }
 	}
 }
 }
