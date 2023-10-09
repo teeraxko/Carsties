@@ -1,6 +1,7 @@
 using AuctionService.Data;
 using Microsoft.EntityFrameworkCore;
 using MassTransit;
+using AuctionService;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -23,6 +24,10 @@ builder.Services.AddMassTransit(x =>{
 
     });
 
+    x.AddConsumersFromNamespaceContaining<AuctionCreatedFaultConsumer>();
+
+    x.SetEndpointNameFormatter(new KebabCaseEndpointNameFormatter("auction",false));
+    
     x.UsingRabbitMq((context,cfg)=>
     {
         cfg.ConfigureEndpoints(context);
