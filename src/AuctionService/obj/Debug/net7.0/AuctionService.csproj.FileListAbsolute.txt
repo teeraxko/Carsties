@@ -44,3 +44,14 @@
 /workspaces/Carsties/src/AuctionService/obj/Debug/net7.0/AuctionService.pdb
 /workspaces/Carsties/src/AuctionService/obj/Debug/net7.0/AuctionService.genruntimeconfig.cache
 /workspaces/Carsties/src/AuctionService/obj/Debug/net7.0/ref/AuctionService.dll
+/workspaces/Carsties/src/AuctionService/bin/Debug/net7.0/MassTransit.dll
+/workspaces/Carsties/src/AuctionService/bin/Debug/net7.0/MassTransit.Abstractions.dll
+/workspaces/Carsties/src/AuctionService/bin/Debug/net7.0/MassTransit.RabbitMqTransport.dll
+/workspaces/Carsties/src/AuctionService/bin/Debug/net7.0/Microsoft.Extensions.Diagnostics.HealthChecks.dll
+/workspaces/Carsties/src/AuctionService/bin/Debug/net7.0/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+/workspaces/Carsties/src/AuctionService/bin/Debug/net7.0/Microsoft.Extensions.Logging.Abstractions.dll
+/workspaces/Carsties/src/AuctionService/bin/Debug/net7.0/Microsoft.Extensions.Options.dll
+/workspaces/Carsties/src/AuctionService/bin/Debug/net7.0/RabbitMQ.Client.dll
+/workspaces/Carsties/src/AuctionService/bin/Debug/net7.0/Contracts.dll
+/workspaces/Carsties/src/AuctionService/bin/Debug/net7.0/Contracts.pdb
+/workspaces/Carsties/src/AuctionService/bin/Debug/net7.0/MassTransit.EntityFrameworkCoreIntegration.dll

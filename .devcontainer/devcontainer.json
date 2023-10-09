@@ -1,7 +1,7 @@
 {"image":"mcr.microsoft.com/devcontainers/universal:2",
 "forwardPorts": [
     // ASP.NET Core Web/API App   
-    7001,7002,7003,7004,5432,27017
+    7001,7002,7003,7004,5432,27017,15672,7777
 ],
 "customizations": {
 	"vscode": {
