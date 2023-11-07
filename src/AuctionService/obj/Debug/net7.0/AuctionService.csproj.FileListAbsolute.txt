@@ -55,3 +55,10 @@
 /workspaces/Carsties/src/AuctionService/bin/Debug/net7.0/Contracts.dll
 /workspaces/Carsties/src/AuctionService/bin/Debug/net7.0/Contracts.pdb
 /workspaces/Carsties/src/AuctionService/bin/Debug/net7.0/MassTransit.EntityFrameworkCoreIntegration.dll
+/workspaces/Carsties/src/AuctionService/bin/Debug/net7.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/workspaces/Carsties/src/AuctionService/bin/Debug/net7.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/workspaces/Carsties/src/AuctionService/bin/Debug/net7.0/Microsoft.IdentityModel.Logging.dll
+/workspaces/Carsties/src/AuctionService/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.dll
+/workspaces/Carsties/src/AuctionService/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/workspaces/Carsties/src/AuctionService/bin/Debug/net7.0/Microsoft.IdentityModel.Tokens.dll
+/workspaces/Carsties/src/AuctionService/bin/Debug/net7.0/System.IdentityModel.Tokens.Jwt.dll

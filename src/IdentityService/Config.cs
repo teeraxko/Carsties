@@ -32,6 +32,25 @@ public static class Config
                 AllowedScopes = {"openid", "profile", "auctionApp"},
                 AccessTokenLifetime = 3600*24*30,
                 AlwaysIncludeUserClaimsInIdToken = true
-            }
+            },
+            new Client
+            {
+                ClientId = "m2m.client",
+                ClientName = "Client Credentials Client",
+
+                ClientSecrets = {new Secret("511536EF-F270-4058-80CA-1C89C192F69A".Sha256())},
+                AllowedGrantTypes = GrantTypes.CodeAndClientCredentials,
+
+                AllowedScopes = {"scope1"},
+            },
+            new Client
+            {
+                ClientId = "postman",
+                ClientName = "Postman",
+                AllowedScopes = {"openid","profile","auctionApp"},
+                RedirectUris ={"https://www.getpostman.com/oauth2/callback"},
+                ClientSecrets=new[]{new Secret("NotASecret".Sha256())},
+                AllowedGrantTypes={GrantType.ResourceOwnerPassword}
+            },
         };
 }
